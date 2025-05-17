@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: chocolate;
+}
+
+.title-container{
+    display: flex;
+    position: relative;
+    top: 5rem;
+    padding: 2rem;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+span{
+    color: antiquewhite;
+}
+
+.textare-container{
+    display: flex;
+    position: relative;
+    top: 4rem;
+    padding: 2rem;
+}
+
+textarea{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    height: 7rem;
+    width: 40%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+textarea:hover{
+    border: 3px brown solid;
+}
+
+textarea:focus{
+    outline: none;
+    border: 3px brown solid;
+}
+
+.counter-container{
+    display: flex;
+    position: relative;
+    top: 3rem;
+    padding: 2rem;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#word-counter,
+#character-counter{
+    color: black;
+    font-weight: bold;
+}
+
+.button-container{
+    display: flex;
+    position: relative;
+    top: 1rem;
+    padding: 2rem;
+}
+
+button{
+    width: 7rem;
+    height: 3rem;
+    border-radius: 10px;
+    border: none;
+    background-color:brown;
+    color: white;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+
+button:hover{
+    border: solid white;
+}
+
+@media (max-width: 600px){
+    textarea{
+        width: 100%;
+    }
+}
